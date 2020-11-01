@@ -1,47 +1,156 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      body {background-color: Black;}
-      h1   {color: LimeGreen;
-            font-family: verdana;
-            font-size: 50%;
-            }
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+body {background-color:#4b4244}
 
-      p     {background-color: LimeGreen;
-            color: White;
-            font-family: verdana;
-            font-size: 50%;
-          }
-    </style>
-  </head>
+p {line-height: 2}
+.bgimg {
+  min-height: 75%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+.bgimg2 {
+  min-height: 50%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+.bgimg {background-image: url("fleetstreet.jpg")}
+.bgimg2 {background-image: url("lawbooks.jpg")}
 
-  <body>
-    <h1>
-       > #open console -r -j -s \ready
-       <br>
-       > awaiting input \keyboard
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-     </h1>
+</style>
 
-     <p>
-       >>
-     </p>
+<body>
 
-     <!--<p>-->
-       <!--style="color:White; background-color:LimeGreen">> #open console -r -j -s \ready-->
-       <!--<form action="/action_page.php">-->
-       <!--  <input style="background-color:LimeGreen; color:White; border:1px solid Black" type="text" id="userinput" name="userinput" maxlength="30" >-->
-       <!--  <label for="userinput">></label>-->
-       <!--</form>-->
-    <!-- </p>-->
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">DEMPSTER & SON</h1>
+    <h2>Attorneys-At-Law</h2>
+  </div>
+</header>
 
-  </body>
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#whoweare" style="width:25%" class="w3-bar-item w3-button">Who we are</a>
+    <a href="#practiceareas" style="width:25%" class="w3-bar-item w3-button">Practice areas</a>
+    <a href="#contactus" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Contact us</a>
+  </div>
+</div>
+
+<!-- WHO WE ARE -->
+<div class="w3-container w3-padding-64 w3-marron w3-text-white w3-center w3-wide" id="whoweare">
+  <br>
+  <br>
+  <br>
+  <h1>WHO WE ARE</h1>
+  <br>
+  <br>
+  <!--  <img class="w3-round w3-grayscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0"> -->
+  <p>Our family firm was founded in 1346, by Warin Benedict Dempsey a 26 year-old attorney-at-law. <br>
+  Since then we have occupied the same building, providing confidential and discreet attorney services. <br>
+  Today, Thomas Warin Dempster III is our Senior Solicitor, following in generations of Dempster sons.
+  </p>
+  <br>
+  <br>
+  <br>
+    <!--  BUTTON <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Contact us</a></p>  -->
+</div>
+
+
+<!-- PRACTICE AREAS - Header-->
+<div class="hero-image">
+    background-image: linear-gradient(rgba(77, 75, 75, 0.5), rgba(77, 75, 75, 0.5)), .bgimg2;
+  <div class="hero-text">
+    <h1>PRACTICE AREAS</h1>
+  </div>
+</div>
+
+
+
+
+<!-- PRACTICE AREAS - Contents -->
+<div class="w3-container w3-padding-300 w3-marron w3-text-white w3-center w3-wide">
+            <div class="w3-half">
+              <h2>Trusts</h2>
+              <br>
+              <br>
+              <p> Explanation for the trust thing here
+              <br>
+              See if you can make it fit on two lines </p>
+            </div>
+            <div class="w3-half">
+              <h2>Wills & Probate</h2>
+              <br>
+              <br>
+              <p> Explanation for the trust thing here
+              <br>
+              See if you can make it fit on two lines </p>
+            </div>
+</div>
+
+
+<!-- CONTACT US -->
+<div class="w3-container w3-padding-200 w3-white w3-text-taupe w3-center w3-wide" id="contactus">
+  <h1>CONTACT US</h1>
+  <div class="w3-row">
+    <div class="w3-half">
+      <br>
+      <br>
+      <br>
+      <p>33 Fleet Street</p>
+      <p>London EC4Y 1BT</p>
+      <p>United Kingdom</p>
+    </div>
+    <div class="w3-half">
+      <br>
+      <br>
+      <br>
+      <p>info@DempsterAndSon.com</p>
+      <br>
+      <br>
+    </div>
+  </div>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-brown w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Contact Form</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">Send us a message</h1>
+      <p>Fill in the form and we'll contact you soon</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+        <input class="w3-input w3-border" type="email" placeholder="Email" name="email">
+        <input class="w3-input w3-border" type="message" placeholder="Message" name="message">
+      </form>
+      <p><i>Thank you</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-taupe w3-text-white w3-padding-16">
+  <p>(c) Dempster And Son, 2020</p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
 </html>
