@@ -1,6 +1,6 @@
 /* cyrillic-ext */
 @font-face {
-  font-family: 'impact';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
@@ -8,7 +8,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: 'impact';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
@@ -16,7 +16,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'impact';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2) format('woff2');
@@ -24,7 +24,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'impact';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
@@ -32,7 +32,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'impact';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
