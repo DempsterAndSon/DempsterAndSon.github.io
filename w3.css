@@ -255,7 +255,7 @@ after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 /* ========= Hero image ========= */
 .hero-image1{
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(77, 75, 75, 0.5), rgba(77, 75, 75, 0.5)), url("fleetstreet.jpg");
+  background-image: linear-gradient(rgba(77, 75, 75, 0.5), rgba(77, 75, 75, 0.5)), url("images/fleetstreet.jpg");
 
   /* Set a specific height */
   height: 100%;
@@ -269,7 +269,7 @@ after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 
 .hero-image2 {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(77, 75, 75, 0.5), rgba(77, 75, 75, 0.5)), url("lawbooks.jpg");
+  background-image: linear-gradient(rgba(77, 75, 75, 0.5), rgba(77, 75, 75, 0.5)), url("images/lawbooks.png");
 
   /* Set a specific height */
   height: 50%;
